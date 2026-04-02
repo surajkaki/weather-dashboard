@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Weather Dashboard (Streamlit)",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "streamlit", "run", "weather_dashboard.py", "--server.port", "8501", "--server.headless", "true", "--browser.gatherUsageStats", "false"],
+      "port": 8501
+    }
+  ]
+}
